@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.tooltip {
+  position: absolute;
+}
+
+.arrow-test {
+    pointer-events: none;
+    overflow: visible !important;
+  }
+
+  //
+  .arrow-test__path {
+    stroke: blue;
+    fill: transparent;
+    stroke-width: 2.5;
+  }
+
+  .arrow-test__head {
+    fill: pink;
+    stroke: red;
+    stroke-width: 1.25;
+  }
